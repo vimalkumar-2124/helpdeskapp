@@ -50,7 +50,7 @@ function HelpDeskForm() {
   }
 
   return <>
-  <div className='wrapper-title'>
+  <div className='wrapper-title mt-3'>
     <h1>Help Desk</h1>
     <p>We are here to help you out !!</p>
   </div>
