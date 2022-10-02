@@ -32,6 +32,7 @@ router.put('/change-status/:id', async(req,res) =>{
             case 'Open':
                 issue.status = 'In-Progress'
                 issue.inProgressDate = new Date()
+                issue.comments = req.body.comments
                 break
             case 'In-Progress':
                 issue.status = 'Closed'
